@@ -1,0 +1,138 @@
+.App {
+    text-align: center;
+}
+
+.main-content {
+    min-width: 320px;
+}
+
+.battlefieldTable {
+    border: 1px solid #f4b23e;
+}
+
+.centered {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+
+.navbar-default {
+    background-color: #9498f8;
+    background: #9498f8;
+    border-color: #9498f8;
+    border-radius: 0;
+    color: white;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.color {
+    color: #58b4a0;
+}
+
+h1 {
+    color: #ec6361;
+}
+
+.battleFieldPanel {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+    border: 1px solid #f4b23e;
+    width: 400px;
+    height: 400px;
+}
+
+.battleFieldPanel {
+    background-color: white;
+}
+
+td {
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(166, 164, 156, 0.8);
+    padding: 0;
+}
+
+ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+}
+
+.emptyBattleField {
+    height: 400px;
+    width: 400px;
+}
+
+.cellStyle {
+    width: 40px;
+    height: 38px;
+}
+
+.miss {
+    width: 36px;
+    height: 40px;
+}
+
+.hitted {
+    width: 36px;
+    height: 40px;
+}
+
+.shipIcon {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+.shipItem {
+    float: left;
+    width: 200px;
+    clear: left;
+}
+
+.hitPointMark {
+    width: 12px;
+    margin: 3px;
+}
+
+p {
+    color: #595959;
+}
+
+hr {
+    border-color: #595959;
+    margin: 0 10px 0 10px;
+    border-top-width: 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
